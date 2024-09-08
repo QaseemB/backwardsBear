@@ -97,7 +97,7 @@ function HomePage() {
     </div>
 
 
-    <div className="site-section bg-gray">
+    <div className="site-section bg-white">
       <div className="container">
         <div className="row mb-5">
           <div className="col-12 text-center">
