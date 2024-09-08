@@ -1,0 +1,32 @@
+@media (max-width: 992px) {
+    .site-quick-contact {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        position: relative;
+        z-index: 10;
+    }
+
+    .ftco-blocks-cover-1 {
+        margin-top: 80px;
+    }
+}
+
+
+@import "~bootstrap/scss/bootstrap";
+
+
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+/* Base */
+@import "site-base";
+/* Navbar */
+@import "site-navbar";
+/* Blocks */
+@import "site-blocks";
+
+body{
+    background-color: lightgray;
+}
